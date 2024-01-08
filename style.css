@@ -12,17 +12,21 @@
   display: block;
   text-align: right;
 }
+
 .header__banner {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
+
   .header { 
     text-align: center;
   }
+
 }
 
 /* Main */
@@ -41,15 +45,18 @@
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+
 .input__item__wrapper {
   display: flex;
 }
+
 .input__item__text,
 .input__item__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .input__item__text {
   margin: 0;
   font-size: 18px;
@@ -62,9 +69,11 @@
   font-family: Lato, sans-serif;
   color: #888888;
 }
+
 .input__item__text:focus {
   color: #333333;
 }
+
 #new-task {
   width: 318px;
 }
@@ -77,6 +86,7 @@
 .input__item__submit-btn {
   outline: none;
 }
+
 .input__item__edit-btn,
 .input__item__delete-btn,
 .input__item__submit-btn {
@@ -88,6 +98,7 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .input__item__edit-btn:hover,
 .input__item__delete-btn:hover,
 .input__item__submit-btn:hover {
@@ -99,6 +110,7 @@
   margin: 0;
   padding: 0px;
 }
+
 .list__item {
   list-style: none;
   overflow: hidden;
@@ -109,26 +121,32 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .list__item > * {
   vertical-align: middle;
 }
+
 .list__item > .input__item__checkbox {
   margin: 0 10px;
 }
+
 .list__item > .input__item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list__item > .input__item__text {
   width: 226px;
 }
+
 .input__item__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .input__item__delete-img:hover {
   transform: rotateZ(0);
 }
@@ -144,10 +162,12 @@
 .todo__list .input__item__text {
   display: none;
 }
+
 .edit-mode .input__item__text {
   display: inline-block;
   width: 224px;
 }
+
 .edit-mode .input__item__label {
   display: none;
 }
