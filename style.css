@@ -63,7 +63,7 @@
 .input__item__text:focus {
   color: #333333;
 }
-.input__item__text#new-task {
+#new-task {
   width: 318px;
 }
 /* Buttons */
